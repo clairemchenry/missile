@@ -7,5 +7,5 @@ for (i = 0; i < num; i++) {
 }
 }
 
-num = process.argv[2] || 10;
+num = process.argv[2] || 1;
 fireloop(num);

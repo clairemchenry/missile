@@ -1,0 +1,31 @@
+{
+  "name": "missile-claire",
+  "version": "0.0.1",
+  "description": "Class project to wrok with missiles",
+  "main": "app.js",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "node-hid": "^0.3.2",
+    "thunder-connector": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/clairemchenry/missile"
+  },
+  "keywords": [
+    "echo",
+    "missile",
+    "raspberry",
+    "pi"
+  ],
+  "author": "clairemchenry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seattleacademy/missile/issues"
+  },
+  "homepage": "https://github.com/seattleacademy/missile"
+}

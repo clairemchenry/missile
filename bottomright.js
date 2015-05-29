@@ -1,4 +1,4 @@
-ThunderConnector = require('thunder-connector');
+ ThunderConnector = require('thunder-connector');
 console.log(ThunderConnector);
 ThunderConnector.connect();
 function downRight(){

@@ -81,7 +81,20 @@ https.createServer(options, function(req, res) {
                     echoResponse.response.outputSpeech.text = 'fire';
                     setTimeout(function(){ThunderConnector.command('fire');},0);
                     //setTimeout(function(){ThunderConnector.command('stop');},500);
-                }               }
+                } 
+                if(choice === "left 180 degrees"){
+                    echoResponse.response.outputSpeech.text = 'left 180 degrees';
+                    setTimeout(function(){ThunderConnector.command('left 180 degrees');},4000);
+                if(choice === "right 180 degrees"){
+                    echoResponse.response.outputSpeech.text = 'right 180 degrees';
+                    setTimeout(function(){ThunderConnector.command('right 180 degrees');},4000);
+                if(choice === "left 90 degrees"){
+                    echoResponse.response.outputSpeech.text = 'left 90 degrees';
+                    setTimeout(function(){ThunderConnector.command('left 90 degrees');},2000); 
+                  if(choice === "right 90 degrees"){
+                    echoResponse.response.outputSpeech.text = 'right 90 degrees';
+                    setTimeout(function(){ThunderConnector.command('right 90 degrees');},2000);        
+            }
             myResponse = JSON.stringify(echoResponse);
             res.setHeader('Content-Length', myResponse.length);
             res.writeHead(200);
